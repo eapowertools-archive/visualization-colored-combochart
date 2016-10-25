@@ -1,0 +1,76 @@
+body {
+  font-size: 12px;
+  font-family: 'QlikView Sans', sans-serif;
+}
+
+.line {
+  fill: none;
+  stroke-width: 2.5px;
+}
+
+.axis text {
+  font-family: 'QlikView Sans', sans-serif;
+}
+
+.grid path,
+.grid line {
+  stroke: #CCCCCC;
+  shape-rendering: crispEdges;
+}
+
+.grid text {
+  font-size: 0px;
+  font-family: 'QlikView Sans', sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #CCCCCC;
+  shape-rendering: crispEdges;
+}
+
+.tick line {
+  opacity: 1;
+}
+
+.bar:hover {
+  fill: #83a8cd;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.d3-tip {
+  line-height: 1.5;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border-radius: 5px;
+}
+
+
+/* Creates a small triangle extender for the tooltip */
+
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.7);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+
+/* Style northward tooltips differently */
+
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}

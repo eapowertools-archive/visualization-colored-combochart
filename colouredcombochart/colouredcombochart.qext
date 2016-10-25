@@ -1,0 +1,9 @@
+{
+	"name" : "Coloured Combo Chart",
+	"description" : "A stacked bar chart that also displays a line",
+	"icon" : "combo-chart",
+	"type" : "visualization",
+	"version": 1.0,
+	"author" : "EAPowerTools",
+	"homepage" : ""
+}
